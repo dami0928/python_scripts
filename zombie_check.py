@@ -20,8 +20,6 @@ from argparse import ArgumentParser
 from termcolor import colored
 
 
-
-
 class zombie_scanner():
     
     
@@ -53,10 +51,6 @@ class zombie_scanner():
             
         except TypeError:
             pass
-
-
-
-
 
 
 
@@ -99,9 +93,6 @@ if __name__ == '__main__':
             sleep(1)    
         
         
-        
-
-
     signal(SIGINT, SIG_DFL) 
     print(colored(f'[*] time to find some crawler','yellow'))
     
